@@ -13,19 +13,20 @@
 .logo img {
     height: 75%;
     margin: 10px;
+    width: 0 auto;
 }
 
 .navigation {
-    background-color: aquamarine;
+    background-color:#026773;
 }
 
 
 nav {
     width: 72%;
     padding: 1%;
-    color: #373738;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
+    color: #F2E3D5;
+    font-family: 'Paytone One', sans-serif;
+    /* font-weight: 900; */
     word-spacing: 20px;
     text-align: right;
     align-content: center;
@@ -36,33 +37,79 @@ body {
     margin: auto;
 }
 
+/* <!-- Typography --> */
+
+h1 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 800;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 600;
+}
+
+.myWork h3 {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+h5 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/* <!-- End Typography --> */
+
 ul {
     margin-left: auto;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .heroImg {
+    background-color: #3CA6A6;
     padding: 25px;
     overflow: auto;
 }
 
 .content {
-    display: block;
+    float: left;
     width: 500px;
     margin: 0 auto;
     text-align: left;
+    font-family: 'Paytone One', sans-serif;
+    color: #012E40;
 }
 
- img {
-    width: 0 auto;
-} 
+.content h5 {
+    float: right;
+}
+
+.content img {
+    width: 100%;
+}
+
+.aboutMe img {
+    width: 100%;
+}
 
 button {
-    background-color:aquamarine;
-    color: #373738;
-    padding: 16px;
-    border-radius: 16px;
+    background-color:#012E40;
+    color:#F2E3D5;
+    padding: 12px;
+    border-radius: 4px;
     font-weight: 700;
 }
 
@@ -70,6 +117,7 @@ footer ul {
     width: 100%;
     display: flex;
     vertical-align: top;
+    font-family: 'Paytone One', sans-serif;
     justify-content: center;
     padding: 0 auto;
 }
@@ -78,23 +126,36 @@ footer li {
     margin: 0 25px;
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-}
-
-.content img {
-    width: 100%;
-}
-
 footer {
     background-color: #373738;
     padding: 25px;
     color: aquamarine;
 }
 
-.parent-container {
+/* .parent-container {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.mySkills {
+    background-color:#026773;
+    padding: 12px;
+    color: #F2E3D5;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#skill  {
+    width: 33%;
+    margin: 16px;
+    padding: auto;
+}
+
+.workGrid {
+    display: grid;
 }
