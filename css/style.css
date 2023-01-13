@@ -146,7 +146,7 @@ footer {
 
 .flexContainer img {
     width: 100%;
-    box-shadow: 0px 2px 5px 2px #012e4098;
+    box-shadow: 0px 2px 5px 2px #000000;
 }
 
 .mySkills {
@@ -176,15 +176,9 @@ footer {
     font-family: 'Paytone One', sans-serif;
 }
 
-/* .workGrid {
-    display: grid;
-    padding: 12px;
-    margin-bottom: 12px;
-} */
-
 .workGrid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 66%;
     grid-template-rows: 350px 350px 350px;
     grid-template-areas:
     "img1 content1"
@@ -213,9 +207,9 @@ footer {
     grid-area: img3;
   }
   
-  .img1, .img2, .img3, .content1, .content2, .content3 {
-    padding: 80px;
-  }
+  /* .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 12px;
+  } */
   
   .content1 {
     grid-area: content1;
