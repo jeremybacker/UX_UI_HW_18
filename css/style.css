@@ -112,7 +112,7 @@ ul {
     /* min-height: 350px ; */
     padding: 12px;
     color: #F2E3D5;
-    background-image: url('/Users/jb/Documents/MyCode/18 Week/UX_UI_HW_18/assets/images/ABOUT ME.png');
+    background-image: url("https://github.com/jeremybacker/UX_UI_HW_18/blob/main/assets/images/ABOUT%20ME.png?raw=true");
     background-size: 100%;
     background-repeat: no-repeat;
 }
