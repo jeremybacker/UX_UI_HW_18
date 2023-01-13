@@ -45,6 +45,12 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 800;
+}
+
 h3 {
     text-align: left;
     font-family: 'Paytone One', sans-serif;    
@@ -102,9 +108,18 @@ ul {
     padding-right: 12px;
 }
 
-.aboutMe img {
-    width: 100%;
+.aboutMe {
+    /* min-height: 350px ; */
+    padding: 12px;
+    color: #F2E3D5;
+    background-image: url('/Users/jb/Documents/MyCode/18 Week/UX_UI_HW_18/assets/images/ABOUT ME.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
+/* .aboutMe img {
+    width: 100%;
+} */
 
 button {
     background-color:#012E40;
@@ -133,12 +148,6 @@ footer {
     color: aquamarine;
 }
 
-/* .parent-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .flexContainer {
     display: flex;
     flex-direction: row;
@@ -153,6 +162,10 @@ footer {
     background-color:#F2E3D5;
     padding: 12px;
     color:#012E40
+}
+
+.mySkills img {
+    border-radius: 4px;
 }
 
 #skill  {
@@ -173,6 +186,7 @@ footer {
 .myWork button {
     background-color: #3CA6A6;
     color: #012E40;
+    float: right;
     font-family: 'Paytone One', sans-serif;
 }
 
@@ -183,14 +197,11 @@ footer {
     grid-template-areas:
     "img1 content1"
     "img2 content2"
-    "img3 content3"
-    ;
+    "img3 content3";
   }
 
   .workGrid img {
     width: 100%;
-    max-width: 400px;
-    padding-bottom: 12px;
     margin: 0 auto;
     display: block;
   }
@@ -207,9 +218,9 @@ footer {
     grid-area: img3;
   }
   
-  /* .img1, .img2, .img3, .content1, .content2, .content3 {
+.content1, .content2, .content3 {
     padding: 12px;
-  } */
+  }
   
   .content1 {
     grid-area: content1;
